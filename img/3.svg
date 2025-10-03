@@ -1,0 +1,10 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .icon-optimize-shape { fill: #00e1ff; }
+    </style>
+  </defs>
+  <polygon class="icon-optimize-shape" points="50 15 70 45 60 45 60 85 40 85 40 45 30 45"/>
+  <rect class="icon-optimize-shape" x="20" y="60" width="10" height="5" rx="2"/>
+  <rect class="icon-optimize-shape" x="70" y="60" width="10" height="5" rx="2"/>
+</svg>

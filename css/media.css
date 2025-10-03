@@ -1,0 +1,366 @@
+@media (max-width: 1315px) {
+  .title-me {
+    margin-bottom: 10px;
+    font-size: 62px;
+  }
+
+  .about-me {
+    font-size: 20px;
+  }
+
+  .tag {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+
+  .image-me img {
+    width: 500px;
+  }
+
+  .greeting {
+    height: 70vh;
+  }
+
+  .view-projects {
+    padding: 12px;
+    max-width: 230px;
+  }
+
+  .title-approach {
+    font-size: 34px;
+  }
+
+  .approach-text {
+    font-size: 16px;
+    max-width: 640px;
+  }
+
+  .quote {
+    max-width: 450px;
+    padding: 35px;
+  }
+
+  .title-experience {
+    font-size: 34px;
+  }
+
+  .title-projects {
+    font-size: 34px;
+  }
+
+  .title-way {
+    font-size: 34px;
+  }
+
+  .way-wrapper {
+    gap: 100px;
+  }
+
+  .left-card-way,
+  .right-card-way {
+    width: 360px;
+    height: 290px;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #1e1e1e;
+  }
+
+  .card-approach {
+    width: 350px;
+  }
+
+  .approach-wrapper {
+    gap: 40px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1120px) {
+  .my-name {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+  }
+
+  .image-me {
+    display: flex;
+  }
+
+  .title-me {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 55px;
+  }
+
+  .about-me {
+    text-align: center;
+
+    margin-bottom: 15px;
+    font-size: 19px;
+  }
+
+  .tag {
+    text-align: center;
+    margin-bottom: 20px;
+
+    font-size: 14px;
+  }
+
+  .image-me img {
+    margin-bottom: 100px;
+    width: 460px;
+  }
+
+  .title-approach {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .approach-text {
+    font-size: 16px;
+    max-width: 840px;
+  }
+
+  .quote {
+    max-width: 840px;
+    padding: 35px;
+  }
+
+  .text-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card {
+    margin-top: 40px;
+    width: 80%;
+  }
+
+  .card-work__site,
+  .card-work__todo {
+    width: 100%;
+    height: 400px;
+  }
+
+  .block-left-card-way {
+    display: flex;
+    height: 900px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .input {
+    width: 450px;
+  }
+}
+
+@media (max-width: 958px) {
+  .way-wrapper {
+    display: none;
+  }
+
+  .way-block--mobile {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .way-block-card {
+    position: relative;
+
+    max-width: 100%;
+    max-height: 100%;
+    padding: 15px 15px 15px 50px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+
+    border-left: 5px solid #00bcd4;
+  }
+
+  .way-block-card::before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #00bcd4;
+  }
+
+  .card-way__time {
+    font-size: 16px;
+  }
+
+  .card-way__title {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block-contact {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    height: 100%;
+  }
+
+  .contact-content {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .title-contact {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 800px) {
+  .works {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 763px) {
+  .card-approach {
+    width: 100%;
+    height: 300px;
+  }
+
+  .card-approach__text {
+    max-width: 600px;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 650px) {
+  .nav-link ul {
+    gap: 5px;
+  }
+
+  .nav-link ul a {
+    font-size: 16px;
+  }
+
+  .logo a {
+    font-size: 20px;
+    color: #00bcd4;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-link {
+    display: none;
+  }
+
+  .header-nav {
+    justify-content: center;
+  }
+
+  .logo a {
+    font-size: 28px;
+    color: #00bcd4;
+  }
+
+  /*  */
+
+  .my-name {
+    padding-top: 100px;
+    /* height: 150px; */
+  }
+
+  .title-me {
+    margin-bottom: 20px;
+    font-size: 38px;
+  }
+
+  .about-me {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .tag {
+    margin-bottom: 20px;
+
+    font-size: 12px;
+  }
+
+  .view-projects {
+    padding: 6px;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .image-me img {
+    width: 300px;
+  }
+
+  .greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+  }
+
+  .title-approach {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .approach-text {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 640px;
+  }
+
+  .card {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .title-experience {
+    font-size: 32px;
+  }
+
+  .title-experience::before {
+    top: 95px;
+  }
+
+  .work-approach,
+  .experience {
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 437px) {
+  .title-projects::before {
+    top: 99px;
+  }
+
+  .title-way::before {
+    top: 99px;
+  }
+}
